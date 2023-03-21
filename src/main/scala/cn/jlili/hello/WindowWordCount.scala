@@ -12,5 +12,7 @@ object WindowWordCount {
 
     env.execute("window word count")
 
+
+    
   }
 }

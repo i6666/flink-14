@@ -17,6 +17,8 @@ import java.time.Duration;
 
 public class TimeApiTest {
     public static void main(String[] args) throws Exception {
+
+
         Configuration conf = new Configuration();
         conf.setInteger("rest.port", 8081);
         StreamExecutionEnvironment env = StreamExecutionEnvironment.createLocalEnvironmentWithWebUI(conf);
